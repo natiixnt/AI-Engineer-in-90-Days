@@ -225,7 +225,7 @@ ai-engineer-in-90-days/
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=your-username/ai-engineer-in-90-days\&type=Date)](https://star-history.com/#your-username/ai-engineer-in-90-days&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=natiixnt/ai-engineer-in-90-days\&type=Date)](https://star-history.com/#natiixnt/ai-engineer-in-90-days&Date)
 
 ---
 
