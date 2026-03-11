@@ -1,0 +1,34 @@
+%%{init: {'theme':'base','themeVariables': {
+  'fontFamily': 'Inter, -apple-system, Segoe UI, sans-serif',
+  'primaryColor': '#F8FAFC',
+  'primaryTextColor': '#0F172A',
+  'primaryBorderColor': '#1E293B',
+  'lineColor': '#475569',
+  'background': 'transparent'
+}}}%%
+flowchart LR
+  UQ["User Query"] --> QE["Query Embedding"]
+  QE -->|search| VDB["Vector Database"]
+  VDB -->|top-k| TK["Top-K Retrieved Chunks"]
+  TK --> RC["Retrieved Context"]
+  RC --> PA["Prompt Assembly"]
+  UQ -.query.-> PA
+  PA --> LLM["LLM"]
+  LLM --> FA["Final Answer"]
+
+  KB["Documents / Knowledge Base"] --> CH["Chunking"]
+  CH --> EM["Embedding Model"]
+  EM -->|index| VDB
+  EM -.shared model.-> QE
+
+  classDef input fill:#EEF2FF,stroke:#4338CA,stroke-width:1.2px,color:#1E1B4B;
+  classDef core fill:#F8FAFC,stroke:#1E293B,stroke-width:1.2px,color:#0F172A;
+  classDef data fill:#ECFEFF,stroke:#0E7490,stroke-width:1.2px,color:#164E63;
+  classDef model fill:#FFF7ED,stroke:#C2410C,stroke-width:1.2px,color:#7C2D12;
+  classDef output fill:#E2FBE8,stroke:#15803D,stroke-width:1.2px,color:#166534;
+
+  class UQ input;
+  class QE,TK,RC,PA core;
+  class KB,CH,VDB data;
+  class EM,LLM model;
+  class FA output;
