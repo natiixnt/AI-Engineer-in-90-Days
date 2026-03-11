@@ -1,5 +1,7 @@
 # AI Engineer in 90 Days
 
+> ⭐ If this roadmap helps you build practical AI systems, star the repository and share it with another developer.
+
 Build real AI systems, RAG pipelines, and AI agents in 90 days.
 
 A practical roadmap for developers who want to become AI Engineers by building real projects instead of studying theory.
@@ -11,61 +13,80 @@ A practical roadmap for developers who want to become AI Engineers by building r
 
 ---
 
+## Demo
+
+![Demo](examples/demo.gif)
+
+---
+
 ## Why This Repository
 
-Most AI learning paths focus on theory or research papers.
+Most AI learning paths focus on theory only.
 
-This roadmap focuses on **building real AI systems**.
-
-The goal is simple: after 90 days you should be able to design, build, and deploy production-style AI applications.
-
-This repository contains:
-
-* a structured 90-day roadmap
-* runnable Python examples
-* architecture explanations
-* real AI projects
-* deployment guidance
+This roadmap focuses on building, shipping, and evaluating real AI systems in a clear 90-day path.
 
 ---
 
 ## Who This Is For
 
-This repository is designed for developers who want to move into AI engineering.
+This repository is designed for developers who:
 
-You will benefit if you:
-
-* know basic Python
-* want hands-on projects instead of theory
-* want to learn how LLM systems actually work
-* want to build real AI applications
+- know basic Python
+- want hands-on projects instead of only theory
+- want to understand how production LLM systems work
+- want a practical transition into AI engineering
 
 ---
 
 ## What You Will Learn
 
-By completing this roadmap you will learn how to:
+By completing this roadmap, you will learn how to:
 
-* build LLM powered applications
-* design RAG systems
-* use embeddings and vector databases
-* build AI agents
-* evaluate AI systems
-* deploy AI applications to production
+- build LLM-powered applications with clean architecture
+- design and implement RAG pipelines
+- work with embeddings and semantic retrieval
+- build AI agents that use tools and multi-step workflows
+- evaluate AI system quality and reliability
+- deploy AI systems as APIs and production services
 
 ---
 
 ## AI Engineering Skills Covered
 
-The roadmap covers the core practical skills used by modern AI engineers:
+Core topics in this roadmap:
 
-* Prompt engineering
-* Embeddings and semantic search
-* Retrieval Augmented Generation
-* Vector databases
-* AI agents and tool use
-* Evaluation and monitoring
-* Production deployment
+- prompt engineering
+- embeddings
+- retrieval augmented generation (RAG)
+- vector databases
+- AI agents
+- evaluation and monitoring
+- API design and deployment
+
+---
+
+## Learning Outcomes After 90 Days
+
+After finishing this roadmap, you should be able to:
+
+- ship an end-to-end AI chatbot with retrieval support
+- build and test a RAG search system over custom documents
+- implement an agent loop that plans and executes tasks
+- expose AI functionality through a production-style API
+- evaluate output quality using practical metrics and traces
+
+---
+
+## Suggested Weekly Study Schedule
+
+A simple weekly workflow that works well for most developers:
+
+- Monday: read the weekly README and review core concepts
+- Tuesday: run the example scripts and inspect code paths
+- Wednesday: implement one small extension or refactor
+- Thursday: build or improve the weekly mini-project
+- Friday: write notes, document learnings, and share progress
+- Weekend (optional): revisit weak points or contribute a PR
 
 ---
 
@@ -98,86 +119,46 @@ H --> I[Deploy AI Systems]
 
 ---
 
-## Progress Checklist
-
-### Learning Path
-
-* [ ] Week 01: Python for AI
-* [ ] Week 02: Machine Learning Basics
-* [ ] Week 03: Embeddings
-* [ ] Week 04: LLMs
-* [ ] Week 05: RAG
-* [ ] Week 06: Vector Databases
-* [ ] Week 07: Agents
-* [ ] Week 08: Evaluation and Monitoring
-* [ ] Week 09: Build Projects
-* [ ] Week 10: Deploy AI Systems
-
-### Project Milestones
-
-* [ ] Ship `ai_chatbot` MVP
-* [ ] Ship `rag_search_engine` MVP
-* [ ] Ship `ai_code_assistant` MVP
-* [ ] Ship `ai_document_analyzer` MVP
-* [ ] Ship `ai_api` MVP
-
----
-
 ## Systems You Will Build
 
-During the roadmap you will implement systems similar to those used in real AI products.
+During the roadmap you will build systems similar to real AI products:
 
-1. [AI chatbot](projects/ai_chatbot/README.md)
-2. [RAG knowledge base / search engine](projects/rag_search_engine/README.md)
-3. [AI code assistant](projects/ai_code_assistant/README.md)
-4. AI research assistant (stretch goal)
-5. [AI API](projects/ai_api/README.md)
-6. [AI document analyzer](projects/ai_document_analyzer/README.md)
-
----
-
-## Tools
-
-Full reference list: [resources/tools.md](resources/tools.md)
-
-Common tools used throughout the projects:
-
-* Python
-* Jupyter
-* uv / pip / poetry
-* OpenAI API
-* Anthropic API
-* Google Gemini API
-* LangChain
-* LlamaIndex
-* DSPy
-* FAISS
-* Chroma
-* Qdrant
-* Pinecone
-* FastAPI
-* Docker
-* GitHub Actions
-* Langfuse
-* Helicone
-* Promptfoo
-* Ragas
+1. [AI chatbot](projects/ai_chatbot/README.md) for conversational UX
+2. [RAG knowledge base / search engine](projects/rag_search_engine/README.md) for grounded answers
+3. [AI code assistant](projects/ai_code_assistant/README.md) for developer workflows
+4. AI research assistant (stretch goal) for literature and synthesis
+5. [AI API](projects/ai_api/README.md) for integration and serving
+6. [AI document analyzer](projects/ai_document_analyzer/README.md) for document-level tasks
 
 ---
 
-## Diagrams
+## Final Capstone Project: AI Knowledge Assistant
 
-### RAG Architecture
+The capstone project combines the full AI engineering stack into one production-style system.
 
-![RAG Architecture](diagrams/rag_architecture.png)
+It combines:
 
-### AI Agent Loop
+- RAG
+- AI agents
+- vector search
+- API
+- deployment
 
-![AI Agent Loop](diagrams/ai_agent_loop.png)
+Capstone objective: build an assistant that retrieves trusted knowledge, reasons across tools, and serves answers through an API endpoint ready for deployment.
 
-### LLM Pipeline
+---
 
-![LLM Pipeline](diagrams/llm_pipeline.png)
+## Example Output
+
+Question:
+How do I evaluate a RAG system?
+
+Answer:
+To evaluate a RAG system you should measure:
+- retrieval precision
+- context relevance
+- answer faithfulness
+- latency
 
 ---
 
@@ -207,6 +188,76 @@ print(generate_answer(question, chunks))
 
 ---
 
+## Tools
+
+Full reference list: [resources/tools.md](resources/tools.md)
+
+Common tools used throughout the projects:
+
+- Python
+- Jupyter
+- uv / pip / poetry
+- OpenAI API
+- Anthropic API
+- Google Gemini API
+- LangChain
+- LlamaIndex
+- DSPy
+- FAISS
+- Chroma
+- Qdrant
+- Pinecone
+- FastAPI
+- Docker
+- GitHub Actions
+- Langfuse
+- Helicone
+- Promptfoo
+- Ragas
+
+---
+
+## Diagrams
+
+### RAG Architecture
+
+![RAG Architecture](diagrams/rag_architecture.png)
+
+### AI Agent Loop
+
+![AI Agent Loop](diagrams/ai_agent_loop.png)
+
+### LLM Pipeline
+
+![LLM Pipeline](diagrams/llm_pipeline.png)
+
+---
+
+## Progress Checklist
+
+### Learning Path
+
+- [ ] Week 01: Python for AI
+- [ ] Week 02: Machine Learning Basics
+- [ ] Week 03: Embeddings
+- [ ] Week 04: LLMs
+- [ ] Week 05: RAG
+- [ ] Week 06: Vector Databases
+- [ ] Week 07: Agents
+- [ ] Week 08: Evaluation and Monitoring
+- [ ] Week 09: Build Projects
+- [ ] Week 10: Deploy AI Systems
+
+### Project Milestones
+
+- [ ] Ship `ai_chatbot` MVP
+- [ ] Ship `rag_search_engine` MVP
+- [ ] Ship `ai_code_assistant` MVP
+- [ ] Ship `ai_document_analyzer` MVP
+- [ ] Ship `ai_api` MVP
+
+---
+
 ## Repository Structure
 
 ```
@@ -223,17 +274,47 @@ ai-engineer-in-90-days/
 
 ---
 
-## Star History
+## Community
 
-[![Star History Chart](https://api.star-history.com/svg?repos=natiixnt/ai-engineer-in-90-days\&type=Date)](https://star-history.com/#natiixnt/ai-engineer-in-90-days&Date)
+Contributions, ideas, and constructive feedback are welcome.
+
+- Open an issue to suggest improvements or report gaps
+- Open a pull request for fixes, examples, or docs upgrades
+- Share progress and lessons learned in GitHub Discussions (or issues if discussions are not enabled)
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 
 ---
 
-## Contributing
+## Related Repositories
 
-See [CONTRIBUTING.md](CONTRIBUTING.md).
+Companion repositories can be linked here as the ecosystem grows:
 
-Contributions are welcome.
+- `ai-engineer-in-90-days-starter` (coming soon)
+- `ai-engineer-in-90-days-projects` (coming soon)
+- `ai-engineer-in-90-days-evals` (coming soon)
+
+---
+
+## Suggested GitHub Topics
+
+Use these repository topics for better discoverability:
+
+- `ai`
+- `ai-engineering`
+- `machine-learning`
+- `rag`
+- `llm`
+- `ai-agents`
+- `vector-database`
+- `prompt-engineering`
+- `ai-roadmap`
+
+---
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=natiixnt/ai-engineer-in-90-days\&type=Date)](https://star-history.com/#natiixnt/ai-engineer-in-90-days&Date)
 
 ---
 

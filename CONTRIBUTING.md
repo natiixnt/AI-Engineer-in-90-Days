@@ -21,6 +21,15 @@ Thank you for contributing to `ai-engineer-in-90-days`.
 - Improve diagrams and architecture docs (`diagrams/`)
 - Extend curated resources (`resources/`)
 
+## Good First Issues
+
+If you are looking for a small starter contribution, these are great entry points:
+
+- Add more RAG examples in `examples/` (multi-query retrieval, reranking, citation formatting)
+- Improve the embeddings tutorial in `weeks/week03_embeddings/README.md` with more practical use cases
+- Add new agent patterns in `examples/agent_loop.py` (planner-worker or tool-selection variants)
+- Add deployment guides in `weeks/week10_deploy_ai/README.md` (Docker, simple cloud deploy, API monitoring)
+
 ## Style Rules
 
 - Keep explanations simple and practical.
