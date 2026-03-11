@@ -4,9 +4,9 @@ Build real AI systems, RAG pipelines, and AI agents in 90 days.
 
 A practical roadmap for developers who want to become AI Engineers by building real projects instead of studying theory.
 
-![Stars](https://img.shields.io/github/stars/your-username/ai-engineer-in-90-days)
-![Forks](https://img.shields.io/github/forks/your-username/ai-engineer-in-90-days)
-![License](https://img.shields.io/github/license/your-username/ai-engineer-in-90-days)
+![Stars](https://img.shields.io/github/stars/natiixnt/ai-engineer-in-90-days)
+![Forks](https://img.shields.io/github/forks/natiixnt/ai-engineer-in-90-days)
+![License](https://img.shields.io/github/license/natiixnt/ai-engineer-in-90-days)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 ---
