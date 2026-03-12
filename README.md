@@ -188,6 +188,146 @@ print(generate_answer(question, chunks))
 
 ---
 
+## Hands-on Exercises
+
+Use this learning flow:
+`roadmap -> examples -> exercises -> projects`
+
+Exercises for practice:
+
+- [Build Your Own Embedding Search](exercises/build-your-own-embedding-search.md)
+- [Build Your Own RAG](exercises/build-your-own-rag.md)
+- [Build Your Own Agent](exercises/build-your-own-agent.md)
+
+---
+
+## AI Engineering Interview Preparation
+
+Use these interview prep guides to practice practical AI engineering questions:
+
+- [AI Engineer Interview Questions](interview-prep/ai-engineer-interview-questions.md)
+- [RAG Interview Questions](interview-prep/rag-interview-questions.md)
+- [LLM Interview Questions](interview-prep/llm-interview-questions.md)
+- [AI System Design Questions](interview-prep/system-design-ai.md)
+
+---
+
+## Common Failure Modes in AI Systems
+
+Practical failure patterns and mitigations for production AI systems:
+
+- [Common Failure Modes in AI Systems](resources/common-failure-modes-ai-systems.md)
+
+---
+
+## Debugging AI Systems
+
+Practical debugging runbook for retrieval, prompts, hallucinations, tools, agents, and latency:
+
+- [Debugging AI Systems](resources/debugging-ai-systems.md)
+
+---
+
+## Build vs Buy Decisions in AI Engineering
+
+Practical trade-offs for architecture and tooling decisions in production AI systems:
+
+- [Build vs Buy Decisions in AI Engineering](resources/build-vs-buy-decisions-ai-engineering.md)
+
+---
+
+## Production Checklists
+
+Practical checklists for shipping and operating production AI systems:
+
+- [RAG Production Checklist](checklists/rag-production-checklist.md)
+- [LLM App Production Checklist](checklists/llm-app-production-checklist.md)
+- [AI Agent Production Checklist](checklists/ai-agent-checklist.md)
+
+---
+
+## Evaluation Recipes
+
+Practical evaluation guides for improving AI system quality in production:
+
+- [Retrieval Evaluation](evaluation-recipes/retrieval-evaluation.md)
+- [Answer Quality Evaluation](evaluation-recipes/answer-quality-evaluation.md)
+- [Faithfulness Checking](evaluation-recipes/faithfulness-checking.md)
+- [Prompt Comparison](evaluation-recipes/prompt-comparison.md)
+- [Model Comparison](evaluation-recipes/model-comparison.md)
+- [Agent Evaluation](evaluation-recipes/agent-evaluation.md)
+
+---
+
+## Architecture Patterns
+
+Common AI engineering architecture patterns with practical trade-offs:
+
+- [Simple LLM App](architecture-patterns/simple-llm-app.md)
+- [RAG Pipeline](architecture-patterns/rag-pipeline.md)
+- [Ingestion Pipeline](architecture-patterns/ingestion-pipeline.md)
+- [Tool-Calling Assistant](architecture-patterns/tool-calling-assistant.md)
+- [Planner-Executor Agent](architecture-patterns/planner-executor-agent.md)
+- [Batch Evaluation Pipeline](architecture-patterns/batch-evaluation-pipeline.md)
+
+---
+
+## Case Studies
+
+Practical AI engineering case studies from problem framing to implementation path:
+
+- [Support Assistant Case Study](case-studies/support-assistant-case-study.md)
+- [Documentation Search Assistant Case Study](case-studies/documentation-search-assistant-case-study.md)
+- [Internal Knowledge Base Assistant Case Study](case-studies/internal-knowledge-base-assistant-case-study.md)
+- [AI Document Analyzer Case Study](case-studies/ai-document-analyzer-case-study.md)
+
+---
+
+## Glossary
+
+Practical definitions of core AI engineering terms:
+
+- [AI Engineering Glossary](resources/glossary.md)
+
+---
+
+## Recommended Learning Paths
+
+Choose a path based on your background and goal:
+
+- [Recommended Learning Paths](resources/recommended-learning-paths.md)
+
+---
+
+## Tooling Comparisons
+
+Practical engineering comparisons for common AI tooling choices:
+
+- [Vector Databases Comparison](tool-comparisons/vector-databases-comparison.md)
+- [LLM Frameworks Comparison](tool-comparisons/llm-frameworks-comparison.md)
+- [Evaluation Tools Comparison](tool-comparisons/evaluation-tools-comparison.md)
+- [Observability Tools Comparison](tool-comparisons/observability-tools-comparison.md)
+
+---
+
+## Benchmarks
+
+Lightweight benchmark-style experiments for core retrieval decisions:
+
+- [Chunk Size Comparison](benchmarks/chunk-size-comparison.md)
+- [Embedding Model Comparison](benchmarks/embedding-model-comparison.md)
+- [Retrieval Strategy Comparison](benchmarks/retrieval-strategy-comparison.md)
+
+---
+
+## From Prototype to Production
+
+Practical implementation guide for hardening AI apps from notebook to production:
+
+- [From Prototype to Production](resources/from-prototype-to-production.md)
+
+---
+
 ## Tools
 
 Full reference list: [resources/tools.md](resources/tools.md)
@@ -266,6 +406,14 @@ ai-engineer-in-90-days/
 ├── CONTRIBUTING.md
 ├── LICENSE
 ├── weeks/
+├── exercises/
+├── interview-prep/
+├── checklists/
+├── evaluation-recipes/
+├── architecture-patterns/
+├── case-studies/
+├── tool-comparisons/
+├── benchmarks/
 ├── projects/
 ├── diagrams/
 ├── examples/
